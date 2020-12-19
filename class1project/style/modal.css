@@ -1,0 +1,49 @@
+.modal {
+  width: 600px;
+  height:  300px;
+  padding: 20px;
+  margin: 100px auto;
+  background-color: #47A0A5;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.modal h1 {
+  border: none;
+  padding: 0;
+}
+.modal .actions {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 10px 0;
+}
+.modal .actions a {
+  /* color: #fff; */
+  padding: 8px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 10px;
+}
+.actions a {
+  color: #fff;
+}
+.sale  {
+  background-color: #ffffff;
+  color: #000000;
+}
+.sale h1 {
+  color: #7EC1F1;
+}
+.sale a {
+  color: #000000;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index:2;
+}
