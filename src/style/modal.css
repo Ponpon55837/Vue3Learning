@@ -11,12 +11,31 @@
   border: none;
   padding: 0;
 }
+.modal .actions {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 10px 0;
+}
+.modal .actions a {
+  /* color: #fff; */
+  padding: 8px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 10px;
+}
+.actions a {
+  color: #fff;
+}
 .sale  {
   background-color: #ffffff;
   color: #000000;
 }
 .sale h1 {
   color: #7EC1F1;
+}
+.sale a {
+  color: #000000;
 }
 .backdrop {
   position: fixed;
