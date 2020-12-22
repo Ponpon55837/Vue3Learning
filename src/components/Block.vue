@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import { computed } from 'vue'
 export default {
   props: ['delay'],
   data() {
@@ -32,5 +33,35 @@ export default {
       console.log(this.reactionTime)
     }
   }
+  // setup() {
+  //   const showBlock = false
+  //   const timer = null
+  //   const reactionTime = 0
+  //
+  //   const startTimer = () => {
+  //     timer = setInterval(() => {
+  //       reactionTime += 10
+  //     }, 10)
+  //   }
+  //
+  //   const stopTimer = () => {
+  //     clearInterval(timer)
+  //     console.log(reactionTime)
+  //   }
+  //
+  //   onMounted(() => {
+  //     setTimeout(() => {
+  //       showBlock = true
+  //       startTimer()
+  //     }, this.delay)
+  //   })
+  //
+  //   return {
+  //     showBlock,
+  //     timer,
+  //     reactionTime
+  //   }
+  // }
+
 }
 </script>
