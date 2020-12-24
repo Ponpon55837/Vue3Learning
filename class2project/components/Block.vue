@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { computed } from 'vue'
+// import { onMounted } from 'vue'
 export default {
   props: ['delay'],
   data() {
@@ -30,10 +30,12 @@ export default {
     },
     stopTimer() {
       clearInterval(this.timer)
-      console.log(this.reactionTime)
+      // 使用emit從父元件拿到名為end的function，再把值傳到上層
+      this.$emit('end', this.reactionTime)
     }
   }
-  // setup() {
+  // setup(props) {
+  //   console.log(props.delay)
   //   const showBlock = false
   //   const timer = null
   //   const reactionTime = 0
@@ -53,7 +55,7 @@ export default {
   //     setTimeout(() => {
   //       showBlock = true
   //       startTimer()
-  //     }, this.delay)
+  //     }, props.delay)
   //   })
   //
   //   return {
@@ -62,6 +64,5 @@ export default {
   //     reactionTime
   //   }
   // }
-
 }
 </script>
