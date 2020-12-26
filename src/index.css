@@ -11,11 +11,18 @@ body {
 }
 
 #nav {
+  display: flex;
+  justify-content: center;
   transition: all ease .5;
   width: 100%;
   top:0;
   padding: 20px;
   background-color: #7EC1F1;
+}
+.opacityReduce {
+  position: fixed;
+  opacity: .7;
+  transition: all ease .5;
 }
 
 #nav a {
