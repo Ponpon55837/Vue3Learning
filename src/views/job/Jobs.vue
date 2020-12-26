@@ -24,12 +24,13 @@ import JobsDetails from './JobsDetails.vue'
 export default {
   data() {
     return {
-      jobs: []
+      jobs: [],
+      url: '/jobs'
     }
   },
   mounted() {
     // 這邊是用json-server來跑，要在終端機執行json-server --watch data/content.json --port 3004，這裡指定port是為了避免跟vite重複使用port 3000
-    fetch(`http://localhost:3004/jobs`)
+    fetch(`http://localhost:3004${this.url}`)
     .then(res => res.json())
     .then(data => this.jobs = data )
     .catch(err => console.log(err.message))
