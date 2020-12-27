@@ -39,23 +39,6 @@ body {
   color: #42b983;
 }
 
-.controlbutton {
-  display: flex;
-  justify-content: center;
-}
-.controlbutton button {
-  margin: 10px 5px;
-  padding: 10px;
-  background: #D3F8FD;
-  border-radius: 10px;
-  border: none;
-  opacity: .7
-}
-.controlbutton button:hover {
-  opacity: 1;
-}
-
-
 .footer {
   display: flex;
   justify-content: center;

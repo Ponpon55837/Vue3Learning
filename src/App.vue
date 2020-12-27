@@ -1,12 +1,6 @@
 <template>
   <Nav />
 
-  <div class="controlbutton">
-    <button @click='redirect'>Redirect</button>
-    <button @click='back'>Go back</button>
-    <button @click='forward'>Go forward</button>
-  </div>
-
   <!-- 這裡的router-view會抓取Nav當中router-link的連結做為內容輸出 -->
   <router-view />
 
