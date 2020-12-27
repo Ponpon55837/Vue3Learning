@@ -1,0 +1,16 @@
+.Blog div {
+  margin: 10px 5px;
+  background: #96A9CA;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* width: 600px; */
+}
+.bloglink {
+  /* width: 600px; */
+  align-items: center;
+}
+.postlist {
+  margin: 10px 5px;
+}

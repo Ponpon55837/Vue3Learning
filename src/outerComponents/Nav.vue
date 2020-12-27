@@ -1,6 +1,7 @@
 <template>
   <div id="nav" @scroll='handleScroll' :class="{ opacityReduce: active }">
     <router-link :to="{ name: 'Home', params: {} }">Home</router-link>
+    <router-link :to="{ name: 'Blog', params: {} }">Blog</router-link>
   </div>
 </template>
 
