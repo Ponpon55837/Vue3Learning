@@ -1,10 +1,31 @@
 {
   "post": [
-    { "id": 1, "title": "WelCome to Blog Page 1", "content": "test content for title 1" },
-    { "id": 2, "title": "WelCome to Blog Page 2", "content": "test content for title 2" },
-    { "id": 3, "title": "WelCome to Blog Page 3", "content": "test content for title 3" },
-    { "id": 4, "title": "WelCome to Blog Page 4", "content": "test content for title 4" },
-    { "id": 5, "title": "WelCome to Blog Page 5", "content": "test content for title 5" },
-    { "id": 6, "title": "WelCome to Blog Page 6", "content": "test content for title 6" }
+    { "id": 1,
+      "title": "WelCome to Blog Page 1",
+      "content": "test content for title 1",
+      "tags": ["tagA", "tagC", "tagE"]
+    }, {
+      "id": 2,
+      "title": "WelCome to Blog Page 2",
+      "content": "test content for title 2",
+      "tags": ["tagA", "tagB", "tagD"]
+    }, {
+      "id": 3,
+      "title": "WelCome to Blog Page 3",
+      "content": "test content for title 3" },
+    { "id": 4, "title": "WelCome to Blog Page 4",
+      "content": "test content for title 4",
+      "tags": ["tagC", "tagE", "tagG"]
+    }, {
+      "id": 5,
+      "title": "WelCome to Blog Page 5",
+      "content": "test content for title 5",
+      "tags": ["tagA", "tagE", "tagF"]
+    }, {
+      "id": 6,
+      "title": "WelCome to Blog Page 6",
+      "content": "test content for title 6",
+      "tags": ["tagC", "tagE", "tagG"]
+    }
   ]
 }

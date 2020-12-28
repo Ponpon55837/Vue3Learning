@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Blog from '../views/Blog/Blog.vue'
-import PostList from '../views/Blog/PostList.vue'
+import Details from '../views/Blog/Details.vue'
 import NotFound from '../views/NotFound.vue'
 
 const routes = [
@@ -15,8 +15,8 @@ const routes = [
     component: Blog
   }, {
     path: '/blog/:id',
-    name: 'PostList',
-    component: PostList,
+    name: 'Details',
+    component: Details,
     // 使用props: true這樣就不需要在使用data() {}，來接資料，直接使用props: ['id', 'details']即可
     props: true
   },{
