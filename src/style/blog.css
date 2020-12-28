@@ -1,14 +1,18 @@
+.Blog {
+  /* max-width: 600px; */
+  /* display: flex;
+  justify-content: center; */
+}
 .Blog div {
-  margin: 10px 5px;
+  /* margin: 10px 5px; */
   background: #96A9CA;
   border-radius: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* width: 600px; */
+  margin: 10px 20% 10px 20%;
 }
 .bloglink {
-  /* width: 600px; */
   align-items: center;
 }
 .postlist {

@@ -6,7 +6,9 @@
 </template>
 
 <script>
+import { ref } from 'vue'
+
 export default {
-  props: ['title', 'content']
+  props: ['title', 'content'],
 }
 </script>
